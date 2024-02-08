@@ -1,0 +1,4 @@
+booking_id,number_of_nights,date_check_in,date_check_out,total_price,user_id
+1,5,2010-03-09,2010-03-14,300.0,80940
+2,1,2010-03-22,2010-03-23,60.0,80940
+3,5,2010-04-05,2010-04-10,300.0,80940

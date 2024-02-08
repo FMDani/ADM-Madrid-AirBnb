@@ -1,0 +1,129 @@
+test_database> db.reviews.find({ "score": 32 }, { "_id": 0, "listing_name": 1, "price_for_night": 1, "comments": 1 });
+[
+  {
+    comments: 'Simon and Arturo have the ultimate location in Madrid!  Steps from the Metro and bus line to everywhere ye felt like it was a spa when walking into the flat.  We were greeted warmly and offered lots of information to get up aion and neighborhood.',
+    listing_name: 'Rooftop terrace room ,  ensuite bathroom',
+    price_for_night: 60
+  },
+  {
+    comments: 'There is no better place to stay if you are visiting Madrid. The metro station is 30 yards from the entraes 15 minutes to downtown Madrid. The neighborhood is great, with bars and restaurants close by, but also quiet at nightotel, with the convenience of having more space. The apartment is terrific. The terrace is wonderful. Finally and most i
+your stay in Madrid outstanding. Thanks you so much!',
+    listing_name: 'Rooftop terrace room ,  ensuite bathroom',
+    price_for_night: 60
+  },
+  {
+    comments: "Thank you so much for this wonderful place to stay.  Arturo and Simon were away so we didn't get to meet y nice neighborhood with a beautiful market and good restaurants.  The apartment is exactly as described and is quiet an
+    listing_name: 'Rooftop terrace room ,  ensuite bathroom',
+    price_for_night: 60
+  },
+  {
+    comments: 'Simón es un anfitrión extraordinario! Estuvimos genial en su apartamento, con una terraza increíble y una
+      '\n' +
+      'Súper recomendable, repetiremos sin duda!',
+    listing_name: 'Rooftop terrace room ,  ensuite bathroom',
+    price_for_night: 60
+  },
+  {
+    comments: 'The appartment is located in the best place in the city,close to everything.\n' +
+      'The host was availble all the time.\n' +
+      'The appartment was very clean.\n' +
+      'The place is very recommended',
+    listing_name: 'Gran Via Studio Madrid',
+    price_for_night: 92
+  },
+  {
+    comments: 'Muy limpio y cómodo, y la anfitrión es muy responsable y responde rápido.',
+    listing_name: 'Single Room whith private Bathroom',
+    price_for_night: 26
+  },
+  {
+    comments: 'Normally I get a little nervous, when I have to write a review, trying to be fair but also accurate.\n' +
+      'Fortunately Dana and her collegues save me the trouble and stress now and make it pretty easy for me.\n' +
+      '\n' +
+      'Everything was perfect.\n' +
+      '\n' +
+      'A very cosy, spacious, very clean appartment for at least 3-4ppl, with everything needed in the most central loca
+      '\n' +
+      'Bed, matress, kitchen, heating, wifi, check in..all perfect. \n' +
+      'The TV is a new flat one and not the small one in the pics.\n' +
+      '\n' +
+      'Dana and her collegues were very professional, polite, helpful and always present during my stay.\n' +
+      'A clear recommendation and my choice, when I come back.\n' +
+      '\n' +
+      'Todo perfecto..apartamento muy limpio, comodo y central, exactamente como se ve en las fotos.\n' +
+      'Dana y sus compañeras eran muy profesionales y atentas y me ofrecieron una estancia agradable.',
+    listing_name: 'Great Vacational Apartments',
+    price_for_night: 65
+  },
+  {
+    comments: 'Just as described. Beautiful, cozy apartment in the center of everything! 2 minutes to Puerta del Sol, 8 7 Calle de Carretas. Directly across from Atocha Train Station, Calle Atocha at Plaza del Emperador, there is a McDonald,
+    listing_name: 'Great Vacational Apartments',
+    price_for_night: 65
+  },
+  {
+    comments: 'El piso estuvo genial! A una esquina de la boca del metro, en pleno barrio de Salamanca, supermercado cas
+    listing_name: 'Amazing Apartment, Salamanca Distri',
+    price_for_night: 82
+  },
+  {
+    comments: 'La casa de Arturo es muy especial! Nos hemos sentido muy a gusto, la ubicación es perfecta y la cama como
+    listing_name: 'MAGIC ARTISTIC HOUSE IN THE CENTER OF MADRID',
+    price_for_night: 24
+  },
+  {
+    comments: 'Awesome flat with awesome open minded host.',
+    listing_name: 'MAGIC ARTISTIC HOUSE IN THE CENTER OF MADRID',
+    price_for_night: 24
+  },
+  {
+    comments: 'Somos madrileños y por cuestiones de Covid decidimos no ir muy lejos y la casa de Vin, en verdad que te d
+para tomar el sol de lo mejor.\n' +
+      '\n' +
+      'Repetiremos.',
+    listing_name: 'Sunny attic duplex flat with terrace next to Sol',
+    price_for_night: 139
+  },
+  {
+    comments: 'Mi estancia en el estudio de Mercedes ha sido estupenda. La situación es magnífica, el estudio estaba muyn' +
+      'Todo perfecto\n',
+    listing_name: 'Retiro Park, Stay at cosy studio',
+    price_for_night: 63
+  },
+  {
+    comments: "Felipe's apartment is in a nice central location and we enjoyed staying there. He had someone there to lese to a metro station (in a great little plaza) and able to walk to museums, parks. markets, etc.\r\n" +
+      "We did find the bed quite short and our feet hung well over the edge, exacerbated by the fact that the head of th
+top).  There was a full queen size futon in the living/dining area, but  I didn't see any sheets for it and  the short b
+      'There was one other thing; every time we ran water, we experienced an unpleasant sewer type smell. It was not ove
+      'We loved the Senegalese restaurant at the end of the street. The food was great and a great value. (It closes bet
+    listing_name: 'Cool Apart. (10min Center + WIFI)',
+    price_for_night: 46
+  },
+  {
+    comments: 'The apartment is VERY small and a bit dark. However it is clean, modern and you have everything there whiourite restaurants - of which there are a great many. Felipe ordered us a taxi to pick us up early on the morning of ourot our bearings on  the first morning, we felt better about things. It,s a student/immigrant/working class neighbourhood    listing_name: 'Amazing apt in the historic center',
+    price_for_night: 114
+  },
+  {
+    comments: 'Appartamento in una posizione strategica. Comodo a tutto. Raul persona disponibile e squisita. Consiglio assolutamente questa location. ',
+    listing_name: 'Bedroom in Chueca Madrid',
+    price_for_night: 70
+  },
+  {
+    comments: "My brother and I had a great time at Charo's place.  It was in a great locations and she was exceptionally kind.  No problems and we would stay there again no question!",
+    listing_name: '*** MALASAÑA B&B ***',
+    price_for_night: 45
+  },
+  {
+    comments: 'The room is soooo spacious to me,\r\n' +
+      'I even had my own private bath room,that was so wonderful.\r\n' +
+      'The location is central,even Madrid is a big city,you could even go to everywhere by walking.\r\n' +
+      'Charo was so nice to me,made me coffee every morning.\r\n' +
+      'Highly recommend,',
+    listing_name: '*** MALASAÑA B&B ***',
+    price_for_night: 45
+  },
+  {
+    comments: 'La hospitalidad de Charo es inmejorable, en todo momento fue atenta, amable y resolutiva. La habitación era limpia, cómoda y calentita (que en invierno se agradece mucho). La ubicación es perfecta, en pleno centro,tro, pudiendo ir a casi cualquier parte a pie. En definitiva, muy recomendable. Repetiremos sin duda.',
+    listing_name: '*** MALASAÑA B&B ***',
+    price_for_night: 45
+  }
+]
